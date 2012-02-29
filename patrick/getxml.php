@@ -3,10 +3,10 @@
 $n = 1;
 while( $n < 1100 )
 {
-	$serverfileurl = "http://www.hodexer.nl/hodex/uva/hodex_nl_uva_" . $n . ".xml";
+	$serverfileurl = "http://www.hodexer.nl/hodex/uva/hodex_nl_uva_" . $n . "_dual.xml";
 	$serverfile = file_get_contents($serverfileurl);
 	
-	$localfileurl = "xml/hodex_nl_uva_" . $n . ".php";
+	$localfileurl = "dual/hodex_nl_uva_" . $n . "_dual.php";
 	
 	$text = str_replace('<?xml version="1.0" encoding="utf-8"?>', '<?php
 $xmlstr = <<<XML
