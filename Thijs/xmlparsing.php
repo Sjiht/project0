@@ -1,9 +1,7 @@
  <?php
-$id = 0;
 
 for($n=1; $n<1100; $n++)
 {
-	$id++;
 	if (file_exists ( 'xmlfiles/hodex_nl_uva_'.$n.'.php' ))
 	{
 		include 'xmlfiles/hodex_nl_uva_'.$n.'.php';
@@ -29,8 +27,7 @@ for($n=1; $n<1100; $n++)
 						echo $additionalSubject . '<br />';
 					}	
 			}
-		}
-		echo $id;			
+		}		
 		echo '<br />';
 		echo '<br />';
 	} 

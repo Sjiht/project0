@@ -1,0 +1,162 @@
+<admissableProgram>
+<profile>CM</profile>
+<additionalSubject>
+<![CDATA[
+(wiskunde A of wiskunde B) + natuurkunde + scheikunde
+]]>
+</additionalSubject>
+<additionalSubject>
+<![CDATA[ wiskunde B, natuurkunde en scheikunde ]]>
+</additionalSubject>
+</admissableProgram>
+<admissableProgram>
+<profile>EM</profile>
+<additionalSubject>
+<![CDATA[ natuurkunde + scheikunde ]]>
+</additionalSubject>
+<additionalSubject>
+<![CDATA[ wiskunde B, natuurkunde en scheikunde ]]>
+</additionalSubject>
+</admissableProgram>
+<admissableProgram>
+<profile>NG</profile>
+<additionalSubject>
+<![CDATA[ natuurkunde ]]>
+</additionalSubject>
+<additionalSubject>
+<![CDATA[ wiskunde B en ]]>
+</additionalSubject>
+</admissableProgram>
+<admissableProgram>
+<profile>NT</profile>
+</admissableProgram>
+<degree>BSc</degree>
+<financing>government</financing>
+<programCredits>180</programCredits>
+<programDuration unit="month">36</programDuration>
+<programForm>full-time</programForm>
+<programId>1</programId>
+<programLevel>academic bachelor</programLevel>
+<studyCluster>nature</studyCluster>
+</programClassification>
+<programContacts/>
+<programCurriculum>
+<course>
+<courseId/>
+<courseName xml:lang="nl">
+<![CDATA[ Energie transities ]]>
+</courseName>
+</course>
+<course>
+<courseId/>
+<courseName xml:lang="nl">
+<![CDATA[
+Analyse van het rapport van het VNklimaatpanel (IPCC)
+]]>
+</courseName>
+<partOfCurriculum>required</partOfCurriculum>
+</course>
+<course>
+<courseId/>
+<courseName xml:lang="nl">
+<![CDATA[ Toekomstperspectief voor de aarde ]]>
+</courseName>
+<partOfCurriculum>required</partOfCurriculum>
+</course>
+<course>
+<courseId/>
+<courseName xml:lang="nl">
+<![CDATA[ Toekomstige uitdagingen en Innovatieve oplossingen ]]>
+</courseName>
+<partOfCurriculum>required</partOfCurriculum>
+</course>
+<course>
+<courseId/>
+<courseName xml:lang="nl">
+<![CDATA[ Klimaatverandering ]]>
+</courseName>
+<partOfCurriculum>required</partOfCurriculum>
+</course>
+<instructionLanguage>
+<languageCode>nl</languageCode>
+<percentage>100</percentage>
+</instructionLanguage>
+<teachingTypeInCurriculum>
+</teachingTypeInCurriculum>
+</teachingTypesInCurriculumYear>
+</programCurriculum>
+<programDescriptions>
+<contentLink>
+<contentSummary xml:lang=""/>
+<contentType>movie</contentType>
+<subject>study info</subject>
+<webLink xml:lang="">
+<![CDATA[ http://www.youtube.com/watch?v=ofh0iIHkhTA ]]>
+</webLink>
+</contentLink>
+<contentLink>
+<contentSummary xml:lang="nl">
+<![CDATA[
+Je bent inzetbaar als expert op het gebied van het eco-systeem van de aarde. Denk ook aan functies op het gebied van duurzaamheid en duurzaam ondernemen. Een internationale carrière behoort tot de mogelijkheden. Mogelijke werkgevers: milieuadviesbureaus, overheidsorganisaties (bijv. Staatsbosbeheer), musea (bijv. Naturalis), bedrijfsleven (bijv. Shell).
+]]>
+</contentSummary>
+<contentType>website</contentType>
+<subject>job perspective</subject>
+<webLink xml:lang="nl">
+<![CDATA[ http://studieadres.nl ]]>
+</webLink>
+</contentLink>
+<programDescription xml:lang="nl">
+<![CDATA[
+Om een systeem dat zo complex is als de aarde te begrijpen, moet je kennis putten uit alle bètadisciplines. Wil je bijvoorbeeld het stijgend waterpeil in rivieren in Nederland analyseren, dan bestudeer je de stroming van de rivier (natuurkunde en wiskunde), de planten en dieren in de uiterwaarden (biologie) en de chemische samenstelling van het water (scheikunde).
+ 
+ Aardwetenschappen aan de UvA is een brede studie. Je kunt kiezen uit vier studiepaden:
+ * Aarde en mens
+ * Aarde en milieu
+ * Aarde en natuur
+ * Fysische geografie
+ 
+ De uitgebreide aandacht voor biologie bij Aardwetenschappen aan de UvA, is uniek. Kennis van de interactie tussen levende wezens en geografische processen is cruciaal om de aarde te begrijpen. Ook het studiepad Aarde en mens is bijzonder, dat fysische geografie en sociale geografie combineert.
+ 
+ Aardwetenschappen is internationaal georienteerd. Onderzoek vindt vaak plaats in het kader van internationale samenwerking en de faculteit ontvangt vaak buitenlandse onderzoekers.
+]]>
+</programDescription>
+<programName xml:lang="nl">
+<![CDATA[ Aardwetenschappen ]]>
+</programName>
+<programSummary xml:lang="nl">
+<![CDATA[
+Tijdens de bachelor Aardwetenschappen doorgrond je het complexe systeem van de aarde. Hoe bouw je een skipiste zonder lawinegevaar? Heeft het aanplanten van bomen invloed op klimaatverandering?
+]]>
+</programSummary>
+<searchword xml:lang="nl">
+<![CDATA[
+aarde,geofysica,geografie,milieu,klimaat,biologie,chemie,natuur,scheikunde,beta,ecologie,fysische geografie,laboratorium,water
+]]>
+</searchword>
+<searchword xml:lang="en">
+<![CDATA[
+earth,geography,geophysics,geography,environment,climate,biology,chemistry,nature,chemistry,exact sciences,ecology,physical geography,laboratory,water
+]]>
+</searchword>
+<webLink xml:lang="nl">http://www.studeren.uva.nl/aardwetenschappen</webLink>
+</programDescriptions>
+<programRelations/>
+<programOrganization>
+<faculty xml:lang="en">Faculty of Science</faculty>
+<faculty xml:lang="nl">
+faculteit der Natuurwetenschappen, Wiskunde en Informatica
+</faculty>
+<programFree>
+<crohoName/>
+<studyClusterUvA>Aarde Natuur en Milieu</studyClusterUvA>
+<studyClusterUvA>Beta</studyClusterUvA>
+<pp/>
+<ps/>
+<cq/>
+<cp>xxxxxxxxxx</cp>
+<facultyId>
+<![CDATA[ nwi ]]>
+</facultyId>
+</programFree>
+</program>
