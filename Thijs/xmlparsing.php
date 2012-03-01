@@ -143,12 +143,15 @@ for($n=1; $n<1100; $n++)
 				echo $webLink . '<br />';
 			}	
 		}
+		'<br />';
 		
-		if( $xml->programDescription != '' )
+		if( $xml->programDescriptions->programDescription != '' )
 		{
-			$programDescription = $xml->programDescription;
+			$programDescription = $xml->programDescriptions->programDescription;
 			echo $programDescription . '<br />';
 		}
+		
+		
 				
 		echo '<br />';			
 		echo '<br />';
