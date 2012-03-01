@@ -152,6 +152,7 @@ for($n=1; $n<1100; $n++)
 			$programDescription = $xml->programDescriptions->programDescription;
 			echo $programDescription . '<br />';
 		}
+		'<p />';
 		
 		// insert programName
 		if( $xml->programDescriptions->programName != '' )
@@ -160,7 +161,63 @@ for($n=1; $n<1100; $n++)
 			echo $programName . '<br />';
 		}
 		
-				
+		// insert programSummary
+		if( $xml->programDescriptions->programSummary != '' )
+		{
+			$programSummary = $xml->programDescriptions->programSummary;
+			echo $programSummary . '<br />';
+		}
+		echo '<br />';
+		
+		// insert Searchword
+		for($y=0; $y<3; $y++)
+		{	
+			if( $xml->programDescriptions->searchword[0] != '' )
+			{
+				$searchword = $xml->programDescriptions->searchword[$y];
+				echo $searchword . '<br />';
+			}
+		}
+		'<br />';	
+		
+		// insert webLink
+		if( $xml->programDescriptions->webLink != '' )
+		{
+			$webLink = $xml->programDescriptions->webLink;
+			echo $webLink . '<br />';
+		}
+		echo '<br />';
+		
+		// insert faculty
+		for($y=0; $y<3; $y++)
+		{
+			if( $xml->programOrganization->faculty[$y] != '' )
+			{
+				$faculty = $xml->programOrganization->faculty[$y];
+				echo $faculty . '<br />';
+			}
+		}
+		echo '<br />';
+		
+		// insert studyCluster
+		for($y=0; $y<3; $y++)
+		{
+			if( $xml->programFree->studyClusterUvA[$y] != '' )
+			{
+				$studyCluster = $xml->programFree->studyClusterUvA[$y];
+				echo $studyCluster . '<br />';
+			}
+		}
+		echo '<br />';
+		
+		// insert facultyId
+		if( $xml->programFree->facultyId != '' )
+		{
+			$facultyId = $xml->programFree->facultyId;
+			echo $facultyId . '<br />';
+		}
+		echo '<br />';
+		
 		echo '<br />';			
 		echo '<br />';
 	} 
