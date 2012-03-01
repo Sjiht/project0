@@ -1,0 +1,29 @@
+<?php
+$xmlstr = <<<XML
+<program xmlns="http://www.hodex.nl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hodex.nl http://www.hodex.nl/hodex.xsd"><editor><![CDATA[editor@hodexer.nl]]></editor><expires>2011-12-14</expires><generator><![CDATA[hodexer]]></generator><hodexVersion><![CDATA[2.5.8]]></hodexVersion><lastEdited>2011-12-09</lastEdited><programClassification><accreditation><accreditationDate>2014-12-31</accreditationDate><orgUnitCountry>nl</orgUnitCountry><orgUnitName><![CDATA[NVAO]]></orgUnitName><webLink xml:lang='nl'>http://www.nvao.net</webLink></accreditation><crohoCode>66981</crohoCode><degree>MSc</degree><fieldOfEducation classification='SOI2006'>5711</fieldOfEducation><finalYear>2011</finalYear><financing>government</financing><numerusFixus xsi:nil='true'></numerusFixus><orgUnitId>uva</orgUnitId><orgUnitLocation><![CDATA[Amsterdam]]></orgUnitLocation><programCredits>120</programCredits><programDuration unit="month">24</programDuration><programForm>full-time</programForm><programId><![CDATA[991]]></programId><programLevel>academic master</programLevel><programType>regular</programType><startingYear>2011</startingYear><studyCluster>nature</studyCluster></programClassification><programContacts></programContacts><programCurriculum><course><courseName xml:lang="en"><![CDATA[Machine Learning: Principles and Methods]]></courseName><courseType>regular</courseType><credits>6</credits><partOfCurriculum>required</partOfCurriculum></course><course><courseName xml:lang="en"><![CDATA[Autonomous Agents and Multi-Agent Systems]]></courseName><courseType>regular</courseType><credits>6</credits><partOfCurriculum>required</partOfCurriculum></course><course><courseName xml:lang="en"><![CDATA[Profile Project AI-LS ]]></courseName><courseType>regular</courseType><credits>6</credits><partOfCurriculum>required</partOfCurriculum></course><percentageDistanceLearning>0</percentageDistanceLearning><percentageNightEducation>0</percentageNightEducation><sizeOfTutorialGroups xsi:nil='true'></sizeOfTutorialGroups><teachingTypesInCurriculumYear year='1'><teachingTypeInCurriculum><typeOfTeaching>theory</typeOfTeaching>
+<percentage>0</percentage></teachingTypeInCurriculum><teachingTypeInCurriculum><typeOfTeaching>practice</typeOfTeaching>
+<percentage>0</percentage></teachingTypeInCurriculum><teachingTypeInCurriculum><typeOfTeaching>self study</typeOfTeaching>
+<percentage>0</percentage></teachingTypeInCurriculum></teachingTypesInCurriculumYear></programCurriculum><programDescriptions><contentLink><contentSummary xml:lang="nl"><![CDATA[A Master of Science degree in Artificial Intelligence gives you a strong foundation for working in key positions in high-tech and knowledge-intensive research centres.
+
+More than half of the programme's graduates have gone on to do a PhD in a range of disciplines at various institutes and universities.]]></contentSummary><contentType>website</contentType><subject>job perspective</subject><webLink xml:lang="nl"><![CDATA[http://studieadres.nl]]></webLink></contentLink><programDescription xml:lang="nl"><![CDATA[Learning methods are used in a variety of systems including:
+
+■systems for data mining, 
+■text and image classification, 
+■recognition of objects and information in texts, 
+■data mining, 
+■robot control.
+
+Emphasis in this track is on algorithms, models for learning, theories that explain why algorithms work (Bayesian statistics, Reinforcement Learning and Minimal Description Length), multi-agent reinforcement learning and transfer learning for multiple modalities. 
+
+You can easily combine this track with other areas in Artificial Intelligence and combine Learning with topics like computer vision, language learning, autonomous systems, web mining or user modelling. For the more theoretically inclined students there are possibilities to go deeper into the formal approaches to learning. 
+
+Besides the core curriculum the following courses are offered in the Learning Systems track:
+
+■Autonomous Agents and Multi-Agent Systems (track course) 
+■Machine Learning: Principles and Methods (track course) 
+■Web Text Mining 
+■Unsupervised Language Learning 
+■Statistical Structure in Language Processing 
+■Advanced Database Systems]]></programDescription><programName xml:lang="nl"><![CDATA[Artificial Intelligence: Learning Systems]]></programName><programName xml:lang="en"><![CDATA[Artificial Intelligence: Learning Systems]]></programName><programSummary xml:lang="nl"><![CDATA[Learning Systems are systems that use experience to construct a general model and to improve their performance.]]></programSummary><searchword xml:lang="nl"></searchword></programDescriptions><programInternationalization><ErasmusMundusProgram>0</ErasmusMundusProgram><facilitationForeignScholarships xsi:nil='true'></facilitationForeignScholarships><foreignStay xsi:nil='true'></foreignStay><maxForeignCredits xsi:nil='true'></maxForeignCredits><percentageForeignStudents xsi:nil='true'></percentageForeignStudents><percentageForeignTeachers xsi:nil='true'></percentageForeignTeachers><percentageStudentsAbroad xsi:nil='true'></percentageStudentsAbroad><percentageTeachersAbroad xsi:nil='true'></percentageTeachersAbroad><studyAbroad xsi:nil='true'></studyAbroad></programInternationalization><programRelations></programRelations><programOrganization><faculty xml:lang="en">Faculty of Science</faculty><faculty xml:lang="nl">faculteit der Natuurwetenschappen, Wiskunde en Informatica</faculty></programOrganization><programFree><dl>nl</dl><pp></pp><ps></ps><cq></cq><cp>xxxxxx</cp><orgUnitLocationId><![CDATA[Amsterdam]]></orgUnitLocationId><facultyId><![CDATA[nwi]]></facultyId><targetMarket>nl</targetMarket><targetMarket>int</targetMarket><programPhase>initial</programPhase></programFree></program>
+XML;
+?>
