@@ -57,12 +57,6 @@ for($n=1; $n<1100; $n++)
 					$duration = $xml->programClassification->programDuration;
 					echo $duration . '<br />';
 				}	
-				
-				if( $xml->programClassification->programDuration != '' )
-				{
-					$duration = $xml->programClassification->programDuration;
-					echo $duration . '<br />';
-				}	
 
 				if( $xml->programClassification->programForm != '' )
 				{
@@ -92,24 +86,70 @@ for($n=1; $n<1100; $n++)
 		
 		echo '<br />';
 		
-		if ($xml->programCurriculum->course[0]->courseName != '')
+		// insert all of the coursenames and types
+		for($y=0; $y<15; $y++)
 		{	
-			for($y=0; $y<10; $y++)
+			if( $xml->programCurriculum->course[$y]->courseName != '' )
 			{
-				
-				if( $xml->programCurriculum->course[$y]->courseName != '' )
-				{
-					$courseName = $xml->programCurriculum->course[$y]->courseName;
-					echo $courseName . '<br />';
-				}
-
-				if( $xml->programCurriculum->course[$y]->courseType != '' )
-				{
-					$courseType = $xml->programCurriculum->course[$y]->courseType;
-					echo $courseType . '<br />';
-				}	
+				$courseName = $xml->programCurriculum->course[$y]->courseName;
+				echo $courseName . '<br />';
 			}
-		}		
+				if( $xml->programCurriculum->course[$y]->courseType != '' )
+			{
+				$courseType = $xml->programCurriculum->course[$y]->courseType;
+				echo $courseType . '<br />';
+			}	
+		}
+		echo '<br />';
+			
+			
+		// insert language
+		if( $xml->programCurriculum->instructionLanguage->languageCode != '' )
+		{
+			$languageCode = $xml->programCurriculum->instructionLanguage->languageCode;
+			echo $languageCode . '<br />';
+		}
+		
+		// insert language percentage
+			if( $xml->programCurriculum->instructionLanguage->percentage != '' )
+		{
+			$percentage = $xml->programCurriculum->instructionLanguage->percentage;
+			echo $percentage . '<p />';
+		}	
+		
+		for($y=0; $y<15; $y++)
+		{
+			
+			if( $xml->programDescriptions->contentLink[$y]->contentSummary != '' )
+			{
+				$contentType = $xml->programDescriptions->contentLink[$y]->contentSummary;
+				echo $contentSummary . '<br />';
+			}
+			
+			if( $xml->programDescriptions->contentLink[$y]->contentType != '' )
+			{
+				$contentType = $xml->programDescriptions->contentLink[$y]->contentType;
+				echo $contentType . '<br />';
+			}
+				if( $xml->programDescriptions->contentLink[$y]->subject != '' )
+			{
+				$subject = $xml->programDescriptions->contentLink[$y]->subject;
+				echo $subject . '<br />';
+			}		
+			
+			if( $xml->programDescriptions->contentLink[$y]->webLink != '' )
+			{
+				$webLink = $xml->programDescriptions->contentLink[$y]->webLink;
+				echo $webLink . '<br />';
+			}	
+		}
+		
+		if( $xml->programDescription != '' )
+		{
+			$programDescription = $xml->programDescription;
+			echo $programDescription . '<br />';
+		}
+				
 		echo '<br />';			
 		echo '<br />';
 	} 
