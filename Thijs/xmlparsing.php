@@ -117,6 +117,7 @@ for($n=1; $n<1100; $n++)
 			echo $percentage . '<p />';
 		}	
 		
+		// insert contentlinks
 		for($y=0; $y<15; $y++)
 		{
 			
@@ -145,12 +146,19 @@ for($n=1; $n<1100; $n++)
 		}
 		'<br />';
 		
+		// insert programDescription
 		if( $xml->programDescriptions->programDescription != '' )
 		{
 			$programDescription = $xml->programDescriptions->programDescription;
 			echo $programDescription . '<br />';
 		}
 		
+		// insert programName
+		if( $xml->programDescriptions->programName != '' )
+		{
+			$programName = $xml->programDescriptions->programName;
+			echo $programName . '<br />';
+		}
 		
 				
 		echo '<br />';			
