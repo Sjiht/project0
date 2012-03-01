@@ -92,21 +92,21 @@ for($n=1; $n<1100; $n++)
 		
 		echo '<br />';
 		
-		if ($xml->programCurriculum->course[0]->courseID != '')
+		if ($xml->programCurriculum->course[0]->courseName != '')
 		{	
 			for($y=0; $y<10; $y++)
 			{
 				
-				if( $xml->programCurriculum->course[$y]->courseID != '' )
-				{
-					$courseID = $xml->programCurriculum->course[$y]->courseID;
-					echo $courseID . '<br />';
-				}
-
 				if( $xml->programCurriculum->course[$y]->courseName != '' )
 				{
 					$courseName = $xml->programCurriculum->course[$y]->courseName;
 					echo $courseName . '<br />';
+				}
+
+				if( $xml->programCurriculum->course[$y]->courseType != '' )
+				{
+					$courseType = $xml->programCurriculum->course[$y]->courseType;
+					echo $courseType . '<br />';
 				}	
 			}
 		}		
