@@ -40,7 +40,6 @@
 	<programLevel>academic bachelor</programLevel>
 	<studyCluster>nature</studyCluster>
 </programClassification>
-<programContacts/>
 <programCurriculum>
 	<course>
 		<courseId/>
@@ -144,11 +143,9 @@
 	faculteit der Natuurwetenschappen, Wiskunde en Informatica
 	</faculty>
 <programFree>
-<studyClusterUvA>Aarde Natuur en Milieu</studyClusterUvA>
-<studyClusterUvA>Beta</studyClusterUvA>
-
-<facultyId>
-<![CDATA[ nwi ]]>
-</facultyId>
+	<studyClusterUvA>Aarde Natuur en Milieu</studyClusterUvA>
+	<studyClusterUvA>Beta</studyClusterUvA>
+	<facultyId>
+		<![CDATA[ nwi ]]>
+	</facultyId>
 </programFree>
-</program>
