@@ -8,18 +8,18 @@ while( $n < 1100 )
 	
 	if ($serverfile != '')
 	{
-		$xmlstr = str_replace('<?xml version="1.0" encoding="utf-8"?>', '<<<XML
+		$appel = str_replace('<?xml version="1.0" encoding="utf-8"?>', '<<<XML
 ', $serverfile);
-		$xmlstr = str_replace('</program>', '</program>
-XML;', $xmlstr);
+		$appel = str_replace('</program>', '</program>
+XML;', $appel);
 
 		#$localfileurl = "xml/hodex_nl_uva_" . $n . ".php";
 		#$fh = fopen($localfileurl, 'w');
 		#fwrite($fh, $xmlstr);
 		#fclose($fh);
 
-		$xml = new SimpleXMLElement($xmlstr);
-		echo $xml->expires . ' ' . $n . '<br />';
+		
+		$xml = new SimpleXMLElement($appel);
 		
 		// insert profile and additionalSubject
 		if ($xml->programClassification->admissableProgram[0]->profile != '')
@@ -37,10 +37,10 @@ XML;', $xmlstr);
 				echo $additionalSubject . '<br />';
 				}	
 			}
-		}		
+		}	
 	}
 	
 	$n = $n + 1;
+ 
 }
-
 ?>

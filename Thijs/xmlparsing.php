@@ -26,6 +26,7 @@ for($n=1; $n<1100; $n++)
 					$additionalSubject = $xml->programClassification->admissableProgram[$x]->additionalSubject;
 					echo $additionalSubject . '<br />';
 				}	
+				
 			}
 		}		
 		echo '<br />';
