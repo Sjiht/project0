@@ -27,15 +27,16 @@ XML;', $xmlstr);
 			for($x=0; $x<10; $x++)
 			{
 				if ($xml->programClassification->admissableProgram[$x]->profile != '' )
-			{
+				{
 				$profile = $xml->programClassification->admissableProgram[$x]->profile;
 				echo $profile . '<br />';
-			}
-			if ($xml->programClassification->admissableProgram[$x]->additionalSubject != '' )
-			{
+				}
+				if ($xml->programClassification->admissableProgram[$x]->additionalSubject != '' )
+				{
 				$additionalSubject = $xml->programClassification->admissableProgram[$x]->additionalSubject;
 				echo $additionalSubject . '<br />';
-			}	
+				}	
+			}
 		}		
 	}
 	
