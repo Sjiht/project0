@@ -3,13 +3,13 @@ cd ~/vhosts
 git clone https://github.com/Sjiht/project0
 
 # chmod all directories 711
-find ~/vhosts/sjiht -type d -exec chmod 711 {} \;
+find ~/project0/vhosts/sjiht -type d -exec chmod 711 {} \;
 
 # chmod all PHP files 600
-find ~/vhosts/sjiht -type f -name *.php -exec chmod 600 {} \;
+find ~/project0/vhosts/sjiht -type f -name *.php -exec chmod 600 {} \;
 
 # chmod most everything else 644
-find ~/vhosts/sjiht -type f \( -name *.css -o -name *.gif -o -name *.html -o -name *.js -o -name *.jpg -o -name *.png -o -name .htaccess \) -exec chmod 644 {} \;
+find ~/project0/vhosts/sjiht -type f \( -name *.css -o -name *.gif -o -name *.html -o -name *.js -o -name *.jpg -o -name *.png -o -name .htaccess \) -exec chmod 644 {} \;
 
 # create a MySQL database for project
 mysql -u mse_project0 -p -e 'CREATE DATABASE mse_project0'
