@@ -20,5 +20,5 @@ mysql -u mse_project0 -p jharvard_alice < ~/vhosts/sjiht/mysql/mse_project0.sql
 # change the value of $db['default']['database'] to be 'mse_project0'
 gedit ~/vhosts/sjiht/application/config/database.php
 
-# append '127.0.0.1 Sjiht' to /etc/hosts
+# append '127.0.0.1 sjiht' to /etc/hosts
 sudo gedit /etc/hosts
