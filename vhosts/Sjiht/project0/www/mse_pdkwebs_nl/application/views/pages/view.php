@@ -1,3 +1,5 @@
+	
+
 <?php
 	// get the study_id from the link that was entered
 	$study_id = $_GET['study'];
@@ -34,7 +36,8 @@
 <h2><?php echo $program_name; ?></h2>
 
 <!-- print the program summary -->
-<div id='summary'>
+<div id='summary' data-role="page" data-theme="a" data-content-theme="a">
+
 	<?php echo $program_summary; ?>
 </div>
 
@@ -123,3 +126,4 @@
 	}
 	?>
 </div>
+

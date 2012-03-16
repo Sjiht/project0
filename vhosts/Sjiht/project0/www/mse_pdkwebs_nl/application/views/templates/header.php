@@ -9,7 +9,10 @@
 		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 	</head>
 	<body>
-		<h1>UvA Studiegids</h1><h2><?php echo htmlspecialchars($title); ?></h2>
-		<div id="links">
-			<a href="/home">Home</a> | <a href="/browse">Browse</a> | <a href="/filter?profiel=&wis=&nat=&sch=&bio=&lat=&gr=&full=&part=&dual=">Filter</a>
-		</div>
+		<div id='page' data-role="page" data-theme="a" data-content-theme="a">
+			<div data-role="header" data-position="inline">
+				<a onClick="history.back();" data-role="button" data-inline="true" data-icon="arrow-l">Back</a>
+				<h1>UvA Studiegids</h1>
+			</div>
+			
+		
